@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.about-section h1 {
+    color: #cf61dd;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.about-section h4, .about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.about-section a {
+    color: #6b223b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+.business-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.business-info h2 {
+    color: #e290ab;
+    text-align: center;
+    font-size: 2em;
+}
+
+.business-info h4 {
+    color: #181616;
+    margin-top: 20px;
+}
+
+.business-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.Logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px; /* Optional: adds some space from edges */
+}

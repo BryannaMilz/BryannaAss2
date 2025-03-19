@@ -1,0 +1,68 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column; /* Ensures content stacks under navbar */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(170, 84, 194);
+  padding-top: 80px; /* Prevents navbar from overlapping content */
+}
+
+.wrapper {
+  width: 400px;
+  padding: 20px;
+  background-color: #b8a4ee;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 20px;
+}
+
+
+.input-box {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 10px 0 15px;
+}
+
+.log {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #585661;
+  color: rgb(255, 138, 138);
+  font-size: 16px;
+  cursor: pointer;
+}
+.Logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px; /* Optional: adds some space from edges */
+}

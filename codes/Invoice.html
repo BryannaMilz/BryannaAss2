@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <script src="invoice.js" defer></script>
+</head>
+<body>
+    <h1>Your Receipt</h1>
+    <p><strong>Customer Name:</strong> <span id="customer"></span></p>
+    <p><strong>Date:</strong> <span id="date"></span></p>
+    <p><strong>Invoice Number:</strong> <span id="invoice"></span></p>
+    <p><strong>Product(s):</strong> <span id="product"></span></p>
+    <p><strong>Price:</strong> <span id="price"></span></p>
+    <p><strong>Quantity:</strong> <span id="quantity"></span></p>
+    <p><strong>Total:</strong> <span id="total"></span></p>
+    <button onclick="window.printReceipt()">Print</button>
+    <button id="backBtn">Return</button>
+
+</html>
